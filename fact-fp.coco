@@ -1,0 +1,6 @@
+def factorial(0) = 1
+
+@addpattern(factorial)
+def factorial(n) = n * factorial(n - 1)
+
+200 |> factorial |> print
