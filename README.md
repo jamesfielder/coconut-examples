@@ -2,6 +2,7 @@ Coconut examples
 ================
 
 Examples of [Coconut](http://coconut-lang.org/) code for my talk at Lambda Lounge Manchester.
+Admission of guilt: many of these are stolen from the excellent docs at https://coconut.readthedocs.io/en/master/DOCS.html
 
 To use this repo:
 
