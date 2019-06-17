@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-coconut -w -l "$(dirname "$0")"
+coconut -w -l --target 3.6 "$(dirname "$0")"

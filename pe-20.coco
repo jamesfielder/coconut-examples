@@ -1,0 +1,3 @@
+from iterative import factorial
+
+100 |> factorial |> str |> list |> map$(int) |> reduce$(+) |> print

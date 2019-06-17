@@ -1,0 +1,11 @@
+def factorial(n):
+    """Compute n! where n is an integer >= 0."""
+    case n:
+        match 0:
+            return 1
+        match _ is int if n > 0:
+            return range(1, n+1) |> reduce$(*)
+    else:
+        raise TypeError("the argument to factorial must be an integer >= 0")
+
+## 100 |> factorial |> print
